@@ -1,0 +1,28 @@
+{
+  "name": "turnup-io",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "demo:studio": "npm run studio --prefix remotion-demo",
+    "demo:render": "npm run render --prefix remotion-demo"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^2.4.0"
+  },
+  "description": "**Real-Time Multiplayer Board Game Platform** — A full-stack web application enabling players to compete in classic board games (Snakes & Ladders, Ludo, Uno, Monopoly) via a persistent WebSocket connection. Built with a React/TypeScript frontend and a Node.js/Express backend, backed by PostgreSQL managed through Prisma ORM.",
+  "main": "bot.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sufyan-Farooq/TurnUp.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Sufyan-Farooq/TurnUp.io/issues"
+  },
+  "homepage": "https://github.com/Sufyan-Farooq/TurnUp.io#readme"
+}
